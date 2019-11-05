@@ -1,6 +1,6 @@
 ---
 title: "Install the Microsoft Graph SDK"
-description: "Provides instructions for installing the C#, Java, Javascript, Objective-C, PHP, and Ruby Microsoft Graph SDKs."
+description: "Provides instructions for installing the C#, Java, JavaScript, Objective-C, PHP, and Ruby Microsoft Graph SDKs."
 localization_priority: Normal
 author: MichaelMainer
 ---
@@ -60,14 +60,14 @@ Add the dependency in the dependencies element in pom.xml:
 </dependency>
 ```
 
-## Install the Microsoft Graph Javascript SDK
+## Install the Microsoft Graph JavaScript SDK
 
-The Microsoft Graph Javascript SDK is included in the following packages:
+The Microsoft Graph JavaScript SDK is included in the following packages:
 
 * @microsoft/microsoft-graph-client ([npm](https://www.npmjs.com/package/@microsoft/microsoft-graph-client))- The core library for making calls to Microsoft Graph.
 * @microsoft/microsoft-graph-types ([npm](https://www.npmjs.com/package/@microsoft/microsoft-graph-types)) - The Typescript types for the Microsoft Graph entities.
 
-You can use [npm](https://www.npmjs.com) to install the Microsoft Graph Javascript SDK:
+You can use [npm](https://www.npmjs.com) to install the Microsoft Graph JavaScript SDK:
 
 ```
 npm install @microsoft/microsoft-graph-client
