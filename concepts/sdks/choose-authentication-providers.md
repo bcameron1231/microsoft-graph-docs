@@ -46,7 +46,7 @@ IConfidentialClientApplication confidentialClientApplication = ConfidentialClien
 AuthorizationCodeProvider authProvider = new AuthorizationCodeProvider(confidentialClientApplication, scopes);  
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/Javascript)
 
 Authorization code, client credential, and on-behalf-of OAuth flows require that you implement a custom authentication provider at this time. For more information, see [Using a custom authentication provider](https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/dev/docs/CustomAuthenticationProvider.md).
 
@@ -95,7 +95,7 @@ IConfidentialClientApplication confidentialClientApplication = ConfidentialClien
 ClientCredentialProvider authProvider = new ClientCredentialProvider(confidentialClientApplication);
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 Authorization code, client credential, and on-behalf-of OAuth flows require that you implement a custom authentication provider at this time. For more information, see [Using a custom authentication provider](https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/dev/docs/CustomAuthenticationProvider.md).
 
@@ -144,7 +144,7 @@ IConfidentialClientApplication confidentialClientApplication = ConfidentialClien
 OnBehalfOfProvider authProvider = new OnBehalfOfProvider(confidentialClientApplication, scopes);
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 Authorization code, client credential, and on-behalf-of OAuth flows require that you implement a custom authentication provider at this time. Read [Using Custom Authentication Provider](https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/dev/docs/CustomAuthenticationProvider.md) for more information.
 
@@ -178,7 +178,7 @@ The implicit grant flow is used in browser-based applications. For more informat
 
 Not applicable.
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 ```javascript
 const clientId = "your_client_id"; // Client Id of the registered application
@@ -238,7 +238,7 @@ Func<DeviceCodeResult, Task> deviceCodeReadyCallback = async dcr => await Consol
 DeviceCodeProvider authProvider = new DeviceCodeProvider(publicClientApplication, scopes, deviceCodeReadyCallback);
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 Not yet available. Please vote for or open a [Microsoft Graph feature request](https://microsoftgraph.uservoice.com/forums/920506-microsoft-graph-feature-requests) if this is important to you.
 
@@ -279,7 +279,7 @@ IPublicClientApplication publicClientApplication = PublicClientApplicationBuilde
 IntegratedWindowsAuthenticationProvider authProvider = new IntegratedWindowsAuthenticationProvider(publicClientApplication, scopes);
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 Not applicable.
 
@@ -319,7 +319,7 @@ IPublicClientApplication publicClientApplication = PublicClientApplicationBuilde
 InteractiveAuthenticationProvider authProvider = new InteractiveAuthenticationProvider(publicClientApplication, scopes);
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 Not yet available. Please vote for or open a [Microsoft Graph feature request](https://microsoftgraph.uservoice.com/forums/920506-microsoft-graph-feature-requests) if this is important to you.
 
@@ -390,7 +390,7 @@ User me = await graphClient.Me.Request()
                 .GetAsync();
 ```
 
-# [Javascript](#tab/Javascript)
+# [JavaScript](#tab/JavaScript)
 
 Not yet available. Please vote for or open a [Microsoft Graph feature request](https://microsoftgraph.uservoice.com/forums/920506-microsoft-graph-feature-requests) if this is important to you.
 
