@@ -24,7 +24,7 @@ DeviceCodeProvider authProvider = new DeviceCodeProvider(publicClientApplication
 GraphServiceClient graphClient = new GraphServiceClient(authProvider);
 ```
 
-# [JavaScript](#tab/JavaScript)
+# [JavaScript](#tab/Javascript)
 
 ```javascript
 const clientId = "INSERT-CLIENT-APP-ID"; // Client Id of the registered application
